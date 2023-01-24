@@ -1,0 +1,35 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="Kotlin Spring SOAP Server with SSL"
+           targetNamespace="Kotlin Spring SOAP Server with SSL" elementFormDefault="qualified">
+
+    <xs:element name="getLocationListRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="authorisation" type="tns:authorisation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getLocationListResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="location" type="tns:location"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="authorisation">
+        <xs:sequence>
+            <xs:element name="login" type="xs:string"/>
+            <xs:element name="pass" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="location">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="treasureChestAmount" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="753f1970-c3fe-43a9-8885-ba82f5c2b04c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/soap-server/src/main/java/com/example/soapserver/data/entity/LocationEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soap-server/src/main/java/com/example/soapserver/data/repository/LocationRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soap-server/src/main/java/com/example/soapserver/utils/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soap-server/src/main/resources/db/migrations/V1_0__create_locations_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soap-server/src/main/resources/genshinImpact.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/kkapalka/soapserver/SoapServerApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/kkapalka/soapserver/SoapServerApplicationTests.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2KjNtQLUYdE71gAolSpIWCw1RUv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soap-server/src/main/resources/db/migrations" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kotlin-spring-soap-ssl\soap-server\src\main\resources\db\migrations" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.soapserver.data.repository" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SoapServerApplication">
+    <configuration name="SoapClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="soap-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.soapclient.SoapClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoapServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="soap-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.soapserver.SoapServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoapServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="soap-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkapalka.soapserver.SoapServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="753f1970-c3fe-43a9-8885-ba82f5c2b04c" name="Changes" comment="" />
+      <created>1674484246898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674484246898</updated>
+      <workItem from="1674484249393" duration="468000" />
+      <workItem from="1674484992536" duration="1005000" />
+      <workItem from="1674486048517" duration="596000" />
+      <workItem from="1674546916618" duration="2247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
